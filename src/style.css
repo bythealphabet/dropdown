@@ -1,0 +1,32 @@
+/* styles.css */
+.dropdown-trigger {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 6px 12px;
+  background-color: white;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-item {
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
